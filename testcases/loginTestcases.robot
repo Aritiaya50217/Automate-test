@@ -13,7 +13,6 @@ Suite Teardown    Close Browser
 AS a user, I want to login success with valid credential
     When user login to futeure skill platform with ${email} and ${valid_password}
     Then future akill should display display validate login fail message as "อยากเก่งขึ้นจนป้าข้างบ้านสงสัย กดติดตาม FutureSkill ไว้เลย!"
-    # [Teardown]    user logout from future skill platform 
 
 
 As a user, I fail to login with invalid credential
